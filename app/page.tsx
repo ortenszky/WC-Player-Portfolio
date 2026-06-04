@@ -1,11 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Clip, clips, skillCategories } from "@/data/clips";
 
 export default function Home() {
   const [openCategory, setOpenCategory] = useState<string>("Breakouts");
   const [selectedClip, setSelectedClip] = useState<Clip | null>(null);
+
+  useEffect(() => {
+  if (!window.location.hash) {
+    window.scrollTo(0, 0);
+  }
+}, []);
 
   function toggleCategory(category: string) {
     setOpenCategory(openCategory === category ? "" : category);
@@ -273,7 +279,8 @@ export default function Home() {
                   <iframe
                       src={selectedClip.videoUrl}
                       title={selectedClip.title}
-                      allow="autoplay; fullscreen; picture-in-picture"
+                      loading="lazy"
+                      allow="fullscreen; picture-in-picture"
                       allowFullScreen
                   />
                 </div>
@@ -281,7 +288,7 @@ export default function Home() {
                 <div className="modalText">
                   <h3>{selectedClip.title}</h3>
                   <p className="clipMeta">
-                    {selectedClip.opponent} · {selectedClip.situation} ·{" "}
+                  {selectedClip.opponent} · {selectedClip.situation} ·{" "}
                     {selectedClip.category}
                   </p>
                   <p>{selectedClip.description}</p>

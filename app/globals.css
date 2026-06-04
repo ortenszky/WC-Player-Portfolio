@@ -418,34 +418,22 @@ h4 {
   place-items: center;
   padding: 20px;
   background: rgba(0, 0, 0, 0.84);
+  overflow-y: auto;
 }
 
 .modal {
   position: relative;
   width: min(980px, 100%);
-  overflow: hidden;
+  max-height: calc(100vh - 40px);
+  overflow: auto;
   border: 1px solid var(--border);
   border-radius: 24px;
   background: var(--card);
   box-shadow: 0 30px 110px rgba(0, 0, 0, 0.65);
 }
 
-.closeButton {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  z-index: 3;
-  width: 42px;
-  height: 42px;
-  border: 0;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.14);
-  color: white;
-  cursor: pointer;
-  font-size: 28px;
-}
-
 .videoWrapper {
+  width: 100%;
   aspect-ratio: 16 / 9;
   background: black;
 }
@@ -454,6 +442,41 @@ h4 {
   width: 100%;
   height: 100%;
   border: 0;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .modalOverlay {
+    padding: 10px;
+    place-items: start center;
+  }
+
+  .modal {
+    width: 100%;
+    max-height: none;
+    margin-top: 20px;
+    border-radius: 18px;
+  }
+
+  .videoWrapper {
+    aspect-ratio: 16 / 9;
+  }
+
+  .modalText {
+    padding: 16px;
+  }
+
+  .modalText h3 {
+    font-size: 21px;
+  }
+
+  .closeButton {
+    top: 8px;
+    right: 8px;
+    width: 38px;
+    height: 38px;
+    font-size: 24px;
+  }
 }
 
 .modalText {
