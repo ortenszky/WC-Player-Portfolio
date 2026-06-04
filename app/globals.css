@@ -413,19 +413,19 @@ h4 {
 .modalOverlay {
   position: fixed;
   inset: 0;
-  z-index: 100;
+  z-index: 1000;
   display: grid;
   place-items: center;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.84);
+  padding: 18px;
+  background: rgba(0, 0, 0, 0.86);
   overflow-y: auto;
 }
 
 .modal {
   position: relative;
   width: min(980px, 100%);
-  max-height: calc(100vh - 40px);
-  overflow: auto;
+  max-height: calc(100vh - 36px);
+  overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 24px;
   background: var(--card);
@@ -449,195 +449,171 @@ h4 {
   border: 0;
 }
 
+.closeButton {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 5;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.modalText {
+  padding: 22px;
+}
+
+.modalText h3 {
+  margin-bottom: 8px;
+  font-size: 26px;
+}
+
+.modalText p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.fullWidthButton {
+  width: 100%;
+}
+
+.contactSection {
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.contactCard {
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: rgba(13, 17, 23, 0.72);
+  padding: 24px;
+}
+
+.contactCard span {
+  display: block;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.contactCard h3 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.contactCard p {
+  margin: 8px 0;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.contactCard a {
+  color: white;
+  text-decoration: none;
+}
+
+.contactCard a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 960px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .playerCard {
+    position: relative;
+    top: auto;
+    order: -1;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 640px) {
-  .modalOverlay {
-    position: fixed;
-    inset: 0;
-    z-index: 1000;
-    display: grid;
-    place-items: center;
+  .hero {
+    padding: 46px 18px 28px;
+  }
+
+  .dashboard {
+    padding: 20px 18px 54px;
+  }
+
+  .bottomSection {
+    padding: 0 18px;
+  }
+
+  .heroButtons,
+  .cardButtons {
+    flex-direction: column;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+  }
+
+  .clipRow {
+    grid-template-columns: 1fr;
+  }
+
+  .watchButton {
+    width: 100%;
+  }
+
+  .skillHeader {
     padding: 18px;
-    background: rgba(0, 0, 0, 0.86);
-    overflow-y: auto;
+  }
+
+  .playerPhoto {
+    min-height: 220px;
+  }
+
+  .modalOverlay {
+    padding: 10px;
+    place-items: center;
   }
 
   .modal {
-    position: relative;
-    width: min(980px, 100%);
-    max-height: calc(100vh - 36px);
-    overflow: hidden;
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    background: var(--card);
-    box-shadow: 0 30px 110px rgba(0, 0, 0, 0.65);
-  }
-
-  .closeButton {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    z-index: 5;
-    width: 42px;
-    height: 42px;
-    border: 0;
-    border-radius: 999px;
-    background: rgba(0, 0, 0, 0.65);
-    color: white;
-    cursor: pointer;
-    font-size: 28px;
+    width: 100%;
+    max-height: calc(100vh - 20px);
+    overflow-y: auto;
+    border-radius: 18px;
   }
 
   .modalText {
-    padding: 22px;
+    padding: 16px;
   }
 
   .modalText h3 {
-    margin-bottom: 8px;
-    font-size: 26px;
+    font-size: 21px;
   }
 
-  .modalText p {
-    color: var(--muted);
-    line-height: 1.6;
+  .closeButton {
+    top: 8px;
+    right: 8px;
+    width: 38px;
+    height: 38px;
+    font-size: 24px;
   }
-
-  @media (max-width: 960px) {
-    .dashboard {
-      grid-template-columns: 1fr;
-    }
-
-    .playerCard {
-      position: relative;
-      top: auto;
-      order: -1;
-      margin-top: 0;
-    }
-  }
-
-  @media (max-width: 640px) {
-    .hero {
-      padding: 46px 18px 28px;
-    }
-
-    .dashboard {
-      padding: 20px 18px 54px;
-    }
-
-    .bottomSection {
-      padding: 0 18px;
-    }
-
-    .heroButtons,
-    .cardButtons {
-      flex-direction: column;
-    }
-
-    .primaryButton,
-    .secondaryButton {
-      width: 100%;
-    }
-
-    .clipRow {
-      grid-template-columns: 1fr;
-    }
-
-    .watchButton {
-      width: 100%;
-    }
-
-    .skillHeader {
-      padding: 18px;
-    }
-
-    .playerPhoto {
-      min-height: 220px;
-    }
-
-    .fullWidthButton {
-      width: 100%;
-    }
-
-    .contactSection {
-      padding-top: 40px;
-      border-top: 1px solid var(--border);
-    }
-
-    .contactGrid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 18px;
-      margin-top: 28px;
-    }
-
-    .contactCard {
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      background: rgba(13, 17, 23, 0.72);
-      padding: 24px;
-    }
-
-    .contactCard span {
-      display: block;
-      color: var(--accent);
-      font-size: 13px;
-      font-weight: 900;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      margin-bottom: 12px;
-    }
-
-    .contactCard h3 {
-      font-size: 26px;
-      margin-bottom: 16px;
-    }
-
-    .contactCard p {
-      margin: 8px 0;
-      color: var(--muted);
-      font-size: 17px;
-    }
-
-    .contactCard a {
-      color: white;
-      text-decoration: none;
-    }
-
-    .contactCard a:hover {
-      color: var(--accent);
-    }
-
-    @media (max-width: 700px) {
-      .contactGrid {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @media (max-width: 640px) {
-      .modalOverlay {
-        padding: 10px;
-        place-items: center;
-      }
-
-      .modal {
-        width: 100%;
-        max-height: calc(100vh - 20px);
-        overflow-y: auto;
-        border-radius: 18px;
-      }
-
-      .modalText {
-        padding: 16px;
-      }
-
-      .modalText h3 {
-        font-size: 21px;
-      }
-
-      .closeButton {
-        top: 8px;
-        right: 8px;
-        width: 38px;
-        height: 38px;
-        font-size: 24px;
-      }
-    }
+}
