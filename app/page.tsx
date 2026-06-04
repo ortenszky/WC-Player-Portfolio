@@ -275,20 +275,26 @@ export default function Home() {
                   ×
                 </button>
 
-                <div className="videoWrapper">
-                  <iframe
-                      src={selectedClip.videoUrl}
-                      title={selectedClip.title}
-                      loading="lazy"
-                      allow="fullscreen; picture-in-picture"
-                      allowFullScreen
-                  />
+                <div className="videoFrame">
+                  {selectedClip.videoUrl ? (
+                      <iframe
+                          src={selectedClip.videoUrl}
+                          title={selectedClip.title}
+                          allow="fullscreen; picture-in-picture"
+                          allowFullScreen
+                      />
+                  ) : (
+                      <div className="videoPlaceholder">
+                        <span>Video Placeholder</span>
+                        <p>Real clip will be added here later.</p>
+                      </div>
+                  )}
                 </div>
 
                 <div className="modalText">
                   <h3>{selectedClip.title}</h3>
                   <p className="clipMeta">
-                  {selectedClip.opponent} · {selectedClip.situation} ·{" "}
+                    {selectedClip.opponent} · {selectedClip.situation} ·{" "}
                     {selectedClip.category}
                   </p>
                   <p>{selectedClip.description}</p>
