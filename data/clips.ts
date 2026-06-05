@@ -60,7 +60,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Puck retrieval under pressure, shoulder check, deception move, first pass leading to a 2 on 1 attack.",
-   videoUrl: "https://drive.google.com/file/d/1FESUwZ-3QM6t_iZ00knJV7XJ-yvuvS3N/preview",
+    videoUrl: "https://streamable.com/e/g93qbc",
   },
   {
     id: 2,
