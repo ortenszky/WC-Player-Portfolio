@@ -60,7 +60,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Puck retrieval under pressure, shoulder check, deception move, first pass leading to a 2 on 1 attack.",
-    videoUrl: "https://streamable.com/e/g93qbc",
+    videoUrl: "https://www.youtube.com/embed/gS16pq4PSdk",
   },
   {
     id: 2,
@@ -70,7 +70,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Shaking off the forechecker, wheeling the puck, fake pass right, pass up leading to a 4on 3 attack. ",
-    videoUrl: "https://drive.google.com/file/d/1ZVNS6n_0U8yzFMPLNNIbadS7znM3F70x/preview",
+    videoUrl: "https://www.youtube.com/embed/lVQ_d5nsTHI",
   },
   {
     id: 3,
@@ -80,7 +80,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Beating the first layer of FC with a reverse, follow up the play.",
-  videoUrl: "https://drive.google.com/file/d/1-ThDeOZV_rTrXRYLiEKJ48LBoRbtsdYL/preview",
+    videoUrl: "https://www.youtube.com/embed/nYgSkmUqPws",
   },
 
   {
@@ -91,7 +91,7 @@ export const clips: Clip[] = [
     situation: "5v4",
     description:
       "Deception move in the corner to escape pressure from the forechecker.",
-  videoUrl: "https://drive.google.com/file/d/11rhMrMO9mHrenKxTHr5POds8mHwhERVe/preview",
+    videoUrl: "https://www.youtube.com/embed/h2rWKR2yahc",
   },
   {
     id: 5,
