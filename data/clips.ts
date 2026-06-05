@@ -101,7 +101,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Puck pickup after a bad pass, scans, first pass beating two forecheckers.",
-  videoUrl: "https://drive.google.com/file/d/1Wv619imJmFimidQiQB0xkA2VBsbpIwrf/preview",
+    videoUrl: "https://www.youtube.com/embed/vAn2T1lEUKk",
   },
   {
     id: 6,
@@ -111,7 +111,7 @@ export const clips: Clip[] = [
     situation: "5vs5",
     description:
       "Deception move vs Timo Meier, beating two forecheckers.",
-    videoUrl: "https://drive.google.com/file/d/1YEw9j-qRsQ8Lv4cfU2Bxn-j1iOuT_1Oh/preview",
+    videoUrl: "https://www.youtube.com/embed/ppeldMCEYQk",
   },
 
   {
@@ -122,7 +122,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Winning puck from a scrum, reverse pass to teammate.",
-  videoUrl: "https://drive.google.com/file/d/1wV_NAcTrUn8j73Tcz7ML3SwNz_YxDJb9/preview",
+    videoUrl: "https://www.youtube.com/embed/Gb4TJ3eHA04",
   },
 
   {
@@ -133,7 +133,7 @@ export const clips: Clip[] = [
     situation: "5vs5",
     description:
       "Aggressive stick defending a 2 on 1, breakout, follow the attack, board pass, shot.",
-  videoUrl: "https://drive.google.com/file/d/1ilxTqPtikEQlnOEpUfVfFsdZE4qSIZrn/preview",
+    videoUrl: "https://streamable.com/e/trbfn3",
   },
 
   {
@@ -144,7 +144,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Pinning Liam Kirk, creating a scrum for overload.",
-  videoUrl: "https://drive.google.com/file/d/1SHhULCLSCyWmILhf8gj6I3gEsEJTBP38/preview",
+    videoUrl: "https://www.youtube.com/embed/TiEEJ-23Fl0",
   },
 
   {
@@ -155,7 +155,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Defending a 4 on 2 rush against, blocking the pass attempt from Hischier.",
-  videoUrl: "https://drive.google.com/file/d/1ZDKkeEU4kHR3OZNK-3clFe3ZoMTWgBST/preview",
+    videoUrl: "https://www.youtube.com/embed/DTqjZy6je3M",
   },
 
   {
@@ -166,7 +166,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Defending a 2 on 1, winning puck with good stick, breakout under big pressure from 2 forecheckers",
-    videoUrl: "https://drive.google.com/file/d/1Hw8SVAeUuh_-Uave2tHLKfXKdyKIp9xN/preview",
+    videoUrl: "https://streamable.com/e/g93qbc",
   },
   {
     id: 12,
@@ -176,7 +176,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Shot block from angle shot.",
-    videoUrl: "https://drive.google.com/file/d/1uuI4kGGh7QKGuwKP05jhGRb3OUfxXeY6/preview",
+    videoUrl: "https://www.youtube.com/embed/aPwxCicoIio",
   },
 
   {
@@ -187,7 +187,7 @@ export const clips: Clip[] = [
     situation: "5vs5",
     description:
       "Winning the puck from Liam Kirk with a good stickcheck.",
-    videoUrl: "https://drive.google.com/file/d/1Ln5FJLNZkzkYn9U-1f5uvzwZc9W34csW/preview",
+    videoUrl: "https://www.youtube.com/embed/LNilJvuyxBk",
   },
   {
     id: 14,
@@ -197,7 +197,7 @@ export const clips: Clip[] = [
     situation: "5vs5",
     description:
       "Angeling against Jesse Puljujärvi, making him rim the puck. ",
-    videoUrl: "https://drive.google.com/file/d/1ES1GDlUCr-GB2FtWSS5qb1k0nFwrnXIN/preview",
+    videoUrl: "https://www.youtube.com/embed/K0g7-5iY3jg",
   },
   {
     id: 15,
@@ -207,7 +207,7 @@ export const clips: Clip[] = [
     situation: "5vs5",
     description:
       "Skating hard to get the inside line to the puck, winning the battle, go up and give option to the winger, OZ RIM.",
-    videoUrl: "https://drive.google.com/file/d/1NrdKuTI4Lrrj9HYDhHm42GO1TWOBD2BV/preview",
+    videoUrl: "https://streamable.com/e/fpl9i4",
   },
 
   {
@@ -218,7 +218,7 @@ export const clips: Clip[] = [
     situation: "5vs5",
     description:
       "Boxing out Ken Jäger.",
-    videoUrl: "https://drive.google.com/file/d/14g1U3a0KLgLH-Bn7PhjqHECOcSxODe-w/preview",
+    videoUrl: "https://www.youtube.com/embed/xZC137osVnM",
    },
 
   {
@@ -229,7 +229,7 @@ export const clips: Clip[] = [
     situation: "5vs5",
     description:
       "Boxout for no rebound.",
-    videoUrl: "https://drive.google.com/file/d/1Ns3q0WZ3PdN4JBJJGPVk_5g-jQtXTcAf/preview",
+    videoUrl: "https://www.youtube.com/embed/Sl7F0hJYM_I",
   },
   {
     id: 18,
@@ -239,7 +239,7 @@ export const clips: Clip[] = [
     situation: "5vs5",
     description:
       "Working hard to separate the opponent from the puck. ",
-    videoUrl: "https://drive.google.com/file/d/1NOkgsH0hOoJ7X5XS8DGxNbgM5elloZeL/preview",
+    videoUrl: "https://www.youtube.com/embed/szDMHPgcRHk",
   },
 
   {
@@ -250,7 +250,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Puck pickup in NZ, scans, skate, self dump.",
-    videoUrl: "https://drive.google.com/file/d/1DnPYPwjIzPQwjaCKHFKHZydMZB_qmU8o/preview",
+    videoUrl: "https://www.youtube.com/embed/Q8VqsGWYDlg",
   },
 
   {
@@ -261,7 +261,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Escape turn vs Timo Meier, puck protection, OZ rim, into lucky chance for.",
-    videoUrl: "https://drive.google.com/file/d/1Fr0Yo6UDOvER4PPHciwNMKHxZe1J5Xgq/preview",
+    videoUrl: "https://www.youtube.com/embed/NoIMzUg6FT0",
   },
 
   {
