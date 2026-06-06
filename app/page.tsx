@@ -43,8 +43,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="dashboard" id="skills">
-          <div className="skillsPanel">
+        <section className="dashboard">
+          <div className="skillsPanel" id="skills">
             <div className="sectionHeader">
               <p className="eyebrow">Video Library</p>
               <h2>Skill Breakdown</h2>
@@ -122,40 +122,40 @@ export default function Home() {
               <h2>Tamás Ortenszky</h2>
               <p className="playerType">Reliable two-way defenseman</p>
 
-<div className="statsGrid">
-  <div>
-    <span>Date of Birth</span>
-    <strong>05.01.2002</strong>
-  </div>
-  <div>
-    <span>Age</span>
-    <strong>24</strong>
-  </div>
-  <div>
-    <span>Height</span>
-    <strong>187 cm</strong>
-  </div>
-  <div>
-    <span>Weight</span>
-    <strong>95 kg</strong>
-  </div>
-  <div>
-    <span>Position</span>
-    <strong>Right D</strong>
-  </div>
-  <div>
-    <span>Shoots</span>
-    <strong>R</strong>
-  </div>
-  <div>
-    <span>Nationality</span>
-    <strong>Hungary</strong>
-  </div>
-  <div>
-    <span>Team 26/27</span>
-    <strong>Ferencvarosi TC (ICEHL)</strong>
-  </div>
-</div>
+              <div className="statsGrid">
+                <div>
+                  <span>Date of Birth</span>
+                  <strong>05.01.2002</strong>
+                </div>
+                <div>
+                  <span>Age</span>
+                  <strong>24</strong>
+                </div>
+                <div>
+                  <span>Height</span>
+                  <strong>187 cm</strong>
+                </div>
+                <div>
+                  <span>Weight</span>
+                  <strong>95 kg</strong>
+                </div>
+                <div>
+                  <span>Position</span>
+                  <strong>Right D</strong>
+                </div>
+                <div>
+                  <span>Shoots</span>
+                  <strong>R</strong>
+                </div>
+                <div>
+                  <span>Nationality</span>
+                  <strong>Hungary</strong>
+                </div>
+                <div>
+                  <span>Team 26/27</span>
+                  <strong>Ferencvarosi TC (ICEHL)</strong>
+                </div>
+              </div>
               <div className="seasonStats">
                 <h3>2026 IIHF World Championship</h3>
 
@@ -168,24 +168,12 @@ export default function Home() {
                   <strong>7</strong>
                 </div>
                 <div className="seasonRow">
-                  <span>G</span>
-                  <strong>0</strong>
-                </div>
-                <div className="seasonRow">
-                  <span>A</span>
-                  <strong>1</strong>
-                </div>
-                <div className="seasonRow">
                   <span>PTS</span>
                   <strong>1</strong>
                 </div>
                 <div className="seasonRow">
                   <span>PIM</span>
                   <strong>2</strong>
-                </div>
-                <div className="seasonRow">
-                  <span>+/-</span>
-                  <strong>-4</strong>
                 </div>
                 <div className="seasonRow">
                   <span>SOG</span>
@@ -199,13 +187,22 @@ export default function Home() {
                   <span>TOI / GP</span>
                   <strong>18:30</strong>
                 </div>
+              </div>
+
+              <div className="seasonStats">
+                <h3>National Team Experience</h3>
+
                 <div className="seasonRow">
-                  <span>Total Shifts</span>
-                  <strong>179</strong>
+                  <span>Hungary National Team</span>
+                  <strong>60 games</strong>
                 </div>
                 <div className="seasonRow">
-                  <span>Avg Shift</span>
-                  <strong>0:43</strong>
+                  <span>IIHF A World Championship</span>
+                  <strong>14 games</strong>
+                </div>
+                <div className="seasonRow">
+                  <span>IIHF World Championship Div. I A</span>
+                  <strong>5 games</strong>
                 </div>
               </div>
 

@@ -147,6 +147,7 @@ h4 {
 
 .skillsPanel {
   min-width: 0;
+  scroll-margin-top: 24px;
 }
 
 .sectionHeader {
