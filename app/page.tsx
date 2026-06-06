@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Clip, clips, skillCategories } from "@/data/clips";
 
 export default function Home() {
-  const [openCategory, setOpenCategory] = useState<string>("Breakouts");
+  const [openCategory, setOpenCategory] = useState<string>("");
   const [selectedClip, setSelectedClip] = useState<Clip | null>(null);
 
   useEffect(() => {
