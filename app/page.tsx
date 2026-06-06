@@ -27,7 +27,7 @@ export default function Home() {
               Defenseman | Hungarian National Team | Swiss-licensed player
             </p>
             <p className="heroText">
-              Reliable defenseman with strong 1v1 defending, calm puck
+              Reliable two-way defenseman with strong 1v1 defending, good hockey sense, calm puck
               decisions under pressure, clean breakouts, defensive-zone
               reliability, and a strong ability to contribute offensively.
             </p>
