@@ -272,7 +272,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Pick for D partner, scans, hard pass up, breakaway pass save after turnover.",
-    videoUrl: "https://drive.google.com/file/d/1FAk8hxRPc1Qm-r5zNP00gJnLERpFP_vG/preview",
+    videoUrl: "https://streamable.com/e/kt08zn",
   },
 
   {
@@ -283,7 +283,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "OZ entry give and go, weakside rim, blueline one-timer.",
-    videoUrl: "https://drive.google.com/file/d/1eJH0paLDZv4b6J7WP45ELveCXroIoOiI/preview",
+    videoUrl: "https://www.youtube.com/embed/nmOOqN1T26U",
   },
 
   {
@@ -294,7 +294,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Going up with the attack, scans, pick up dump under pressure, low to high pass.",
-    videoUrl: "https://drive.google.com/file/d/1cVoxrPX7GoPGnQ-ljEsm9H_aPAml2SUC/preview",
+    videoUrl: "https://www.youtube.com/embed/Wb5EHq8se-Y",
   },
 
   {
@@ -305,7 +305,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "D-D pass, hinge option, no stickhandle hard pass up.",
-    videoUrl: "https://drive.google.com/file/d/1cJ485IoPUJBuiO1dusdDRmR5e-d3j_Oy/preview",
+    videoUrl: "https://www.youtube.com/embed/bgDZWNIOHNM",
   },
 
   {
@@ -316,7 +316,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Communicate w d partner to leave the puck, skate up, turn back because of linechange, go up when everybody is ready.",
-    videoUrl: "https://drive.google.com/file/d/1hkEYd2Vezy14ZDj_YkepTop8oXN2T26Y/preview",
+    videoUrl: "https://www.youtube.com/embed/wVbDrCyLVM8",
   },
 
   {
@@ -327,7 +327,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Puck pickup behind the net, kick out, fake onetimer, D-D, chance for.",
-    videoUrl: "https://drive.google.com/file/d/1CtSw_Ahjz91OIxDy2T4uiapFosJEKnWb/preview",
+    videoUrl: "https://streamable.com/e/97gc2n",
   },
 
   {
@@ -338,7 +338,7 @@ export const clips: Clip[] = [
     situation: "4vs5",
     description:
       "Pressure on zone entry, good stickcheck, 2 on 1 shorthanded.",
-    videoUrl: "https://drive.google.com/file/d/1g90C4d7eCkNAKm_zWkYsPqTCtgymu1Tt/preview",
+    videoUrl: "https://www.youtube.com/embed/esFDvqRpBCo",
   },
 
   {
@@ -349,7 +349,7 @@ export const clips: Clip[] = [
     situation: "4vs5",
     description:
       "Pressure after a Faceoff loss, board battle win leading to a clear.",
-    videoUrl: "https://drive.google.com/file/d/1XIn_0ZFKzsgsUOfmWR4L_lmPhnAN_RJi/preview",
+    videoUrl: "https://www.youtube.com/embed/Jfop57rLwug",
   },
 
   {
@@ -360,7 +360,7 @@ export const clips: Clip[] = [
     situation: "4vs5",
     description:
       "Good gap and angle forces a chip to the teammate.",
-    videoUrl: "https://drive.google.com/file/d/1GwZuDnlgpbKjD-1tyoQDgnsTYl5pTrY4/preview",
+    videoUrl: "https://www.youtube.com/embed/VzWz5kpH2No",
   },
 
   {
@@ -371,7 +371,7 @@ export const clips: Clip[] = [
     situation: "4vs5",
     description:
       "Hard pressure on a rim, winning the puck, battling to keep the puck after clear attempt,",
-    videoUrl: "https://drive.google.com/file/d/1NNyY2vv5oqyi9U_MLEmRSnD8HAyzIVLt/preview",
+    videoUrl: "https://www.youtube.com/embed/2RmjGVdoYpg",
   },
 
   {
@@ -382,7 +382,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Get middle on blue line quick, deke to get past the winger, shot on net, regroup puck retrieval to pass up, slot shot, in position for empty net pass.",
-    videoUrl: "https://drive.google.com/file/d/1GN8-IOzhds3J312RuF72c7uml5D_C5nI/preview",
+    videoUrl: "https://streamable.com/e/dy09mq",
   },
 
   {
@@ -393,7 +393,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Blue line shot blocked by teammate, get middle, D-D, shot from top of the circle.",
-    videoUrl: "https://drive.google.com/file/d/1ulDeQgNxvPjaX0w_rSRMl7Rpk1wvzlwu/preview",
+    videoUrl: "https://www.youtube.com/embed/JTv-UPCqp5w",
   },
 
       {
@@ -404,7 +404,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "One-timer from the boards leading to big rebound chance, quick shot from the blue line.",
-    videoUrl: "https://drive.google.com/file/d/1huxBt56A7qxZ9qZLsPwIW5QjKq0eLKwj/preview",
+    videoUrl: "https://www.youtube.com/embed/RDNEVfd2qkQ",
   },
 
   {
@@ -415,7 +415,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Toedrag shot fom the slot.",
-    videoUrl: "https://drive.google.com/file/d/1eUG_GG8AksLi8D8T0mWu7VURaNPfq4rC/preview",
+    videoUrl: "https://www.youtube.com/embed/_yWhdi4o4LU",
   },
 
   {
@@ -426,7 +426,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Pinch, self chip, board battle, escape high, shot, rebound chance, seem pass.",
-    videoUrl: "https://drive.google.com/file/d/1nfkBFtKjj_Ypyzg36lF1X9zCh9syIPvR/preview",
+    videoUrl: "https://streamable.com/e/ylpaig",
   },
 
   {
@@ -437,7 +437,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "One-timer from D-D pass.",
-    videoUrl: "https://drive.google.com/file/d/1z6MXQxnO2YO_NVDeSHldQL0GuVDVNY-L/preview",
+    videoUrl: "https://www.youtube.com/embed/T8_313TaFl0",
   },
 
   {
@@ -448,7 +448,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Hard D-D pass, pass back to forward for one-timer.",
-    videoUrl: "https://drive.google.com/file/d/1vej8JPtdaxvO94ivb6bkF8L_y6MOYeAr/preview",
+    videoUrl: "https://www.youtube.com/embed/zoSY5aQmKrU",
   },
 
   {
@@ -459,7 +459,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Hard D-D pass after moving in two shoot. ",
-    videoUrl: "https://drive.google.com/file/d/1qTzvgQ-g1NcPwzvv9dJ80TGMa1moWLBG/preview",
+    videoUrl: "https://www.youtube.com/embed/Dcm8IARDGpY",
   },
 
   {
@@ -470,7 +470,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Pinch on the rim, touch for teammate coming up.",
-    videoUrl: "https://drive.google.com/file/d/1rdJb_tRy0Q_CtI7I8291nlauJhvhXT9q/preview",
+    videoUrl: "https://www.youtube.com/embed/OaVSKNHWmvE",
   },
 
   {
@@ -481,7 +481,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Pinch, hit, pick for teammate to cut in.",
-    videoUrl: "https://drive.google.com/file/d/1cR2QsbcfrM8WrQF5JcotQqRih192wsfm/preview",
+    videoUrl: "https://www.youtube.com/embed/B8-Ib-_7abs",
   },
 
   {
@@ -492,7 +492,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Pick vs forechecker so teammate can skate up and make an easy pass.",
-    videoUrl: "https://drive.google.com/file/d/17t76-pT3f1I8Qc5lNWs_hC_V4B9qaesW/preview",
+    videoUrl: "https://www.youtube.com/embed/fka-jQjAmhw",
   },
 
   {
@@ -503,7 +503,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Picking the forechecker to give more time to the d-partner",
-    videoUrl: "https://drive.google.com/file/d/1qUCTWsh1Wm6TdfQwLlMpM4SyQGQcTXzr/preview",
+    videoUrl: "https://www.youtube.com/embed/KwkH1cyassw",
   },
 
 
