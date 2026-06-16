@@ -60,8 +60,9 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Puck retrieval under pressure, shoulder check, deception move, first pass leading to a 2 on 1 attack.",
-    videoUrl: "https://www.youtube.com/embed/gS16pq4PSdk",
-  },
+     videoUrl:
+    "https://pub-72a4fda80f934f379e00068c9815bdf7.r2.dev/USED%3B%20BO%20great%20move%20leading%20to%20a%202v1%20vs%20GBR.mp4",
+},
   {
     id: 2,
     title: "Under Pressure Wheel Leading to a 4 on 3 Attack",

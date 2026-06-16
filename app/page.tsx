@@ -274,12 +274,24 @@ export default function Home() {
 
                 <div className="videoFrame">
                   {selectedClip.videoUrl ? (
-                      <iframe
-                          src={selectedClip.videoUrl}
-                          title={selectedClip.title}
-                          allow="fullscreen; picture-in-picture"
-                          allowFullScreen
-                      />
+                      selectedClip.videoUrl.toLowerCase().includes(".mp4") ? (
+                          <video
+                              controls
+                              preload="metadata"
+                              playsInline
+                              className="clipVideo"
+                          >
+                            <source src={selectedClip.videoUrl} type="video/mp4"/>
+                            Your browser does not support the video tag.
+                          </video>
+                      ) : (
+                          <iframe
+                              src={selectedClip.videoUrl}
+                              title={selectedClip.title}
+                              allow="fullscreen; picture-in-picture"
+                              allowFullScreen
+                          />
+                      )
                   ) : (
                       <div className="videoPlaceholder">
                         <span>Video Placeholder</span>
