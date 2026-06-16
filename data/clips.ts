@@ -449,7 +449,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Hard D-D pass, pass back to forward for one-timer.",
-    videoUrl: "https://www.youtube.com/embed/zoSY5aQmKrU",
+    videoUrl: "https://pub-72a4fda80f934f379e00068c9815bdf7.r2.dev/Offensive%20Plays/Blueline%20D-D%20vs%20AUT.mp4",
   },
 
   {
@@ -460,7 +460,7 @@ export const clips: Clip[] = [
     situation: "5v5",
     description:
       "Hard D-D pass after moving in two shoot. ",
-    videoUrl: "https://pub-72a4fda80f934f379e00068c9815bdf7.r2.dev/Offensive%20Plays/Blueline%20D-D%20vs%20AUT.mp4",
+    videoUrl: "https://pub-72a4fda80f934f379e00068c9815bdf7.r2.dev/Offensive%20Plays/OZ%20D-D%20vs%20GBR.mp4",
   },
 
   {
